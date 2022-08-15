@@ -45,7 +45,7 @@ body {
 
 .typing {
     color: white;
-    z-index: 1000;
+    z-index: 100;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -61,6 +61,8 @@ body {
     line-height: 35px;
     font-size: 25px;
 }
+
+
 
 .content p {
     color: white;
@@ -94,10 +96,6 @@ a {
     overflow: hidden;
     transition: 0.25s;
 }
-
-
-@media (max-width:) {}
-
 
 .landing-page {
     margin: auto;
@@ -157,7 +155,7 @@ a {
 
 @font-face {
     font-family: Suavity;
-    src: url(/images/The\ Suavity.woff);
+    src: url(../fonts/The\ Suavity.woff);
 }
 
 .our-books p {
@@ -250,4 +248,11 @@ a {
     border-radius: 20px;
     margin-top: 70px;
     margin-left: 200px;
+}
+
+
+.support {
+    background-image: url(../images/metamorphoo\ 2.png);
+    height: 100vh;
+    margin: 0%;
 }
