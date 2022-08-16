@@ -1,6 +1,7 @@
 body{
     background: url(../images/sponsor-bg.png) center no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 nav{
     padding: 30px 2%;
@@ -38,8 +39,10 @@ section{
 }
 section div{
     display: flex;
+    flex-wrap: wrap;
     margin: 30px;
     align-items: center;
+    justify-content: center;
 }
 .p-sect{
 
@@ -75,4 +78,22 @@ section div{
 }
 .proceed-btn:focus{
     outline: none;
+}
+
+@media (max-width:750px) {
+    nav img{
+        height: 70px;
+        width: 70px;
+        object-fit: cover;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .amount{
+        font-size: 45px;
+    }
+    .proceed-btn{
+        font-size: 15px;
+        padding: 6px 30px;
+    }
 }
