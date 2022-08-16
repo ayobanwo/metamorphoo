@@ -28,13 +28,13 @@ body {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    z-index: 1000;
+    z-index: 100;
     align-self: center;
 }
 
 .head {
     color: white;
-    z-index: 1000;
+    z-index: 100;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
