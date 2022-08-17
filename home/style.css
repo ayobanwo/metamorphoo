@@ -4,8 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    /* height: 100vh; */
+    background: linear-gradient(180deg, #0D313D 0%, #0C122C 100%);
 }
 .landing-page {
     margin: auto;
@@ -148,7 +147,7 @@ hr{
 
 .viewmorebooks {
     padding: 10px 30px;
-    background-color: black;
+    background-color: transparent;
     color: white;
     border: 2px solid #E8E8E8;
     border-radius: 20px;
@@ -199,6 +198,7 @@ hr{
     .icons{
         flex-direction: row;
         margin: 0;
+        display: none;
     }
     .line{
         height: 0;
