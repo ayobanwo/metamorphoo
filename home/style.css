@@ -15,7 +15,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+.header h1{
+    display: none;
+}
 .metamorphoo-image img {
     height: 705px;
     width: 572px;
@@ -194,14 +196,42 @@ hr{
     }
 }
 @media (max-width:750px) {
+    .icons{
+        flex-direction: row;
+        margin: 0;
+    }
+    .line{
+        height: 0;
+        width: 20px;
+    }
+    .icons img{
+        width:80px;
+        margin-bottom: -16px;
+        margin-right: -12px;
+    }
+    .icons i{
+        font-size: 30px;
+    }
     .header{
-        background: url(../images/mt4\ pic.png);
+        flex-direction: column;
+        background: url(../images/sponsor-bg.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        padding: 50px 2%;
+        justify-content: center;
+        align-items: center;
     }
     .metamorphoo-image img{
         display: none;
+    }
+    .header h1{
+        display: block;
+        color: white;
+        margin-top: 40px;
+        font-family: 'Montserrat';
+        font-size: 50px;
+        font-weight: 600;
     }
     .books-div, .who-div {
             padding: 35px 8%;
@@ -211,5 +241,10 @@ hr{
     }
     .boot-img{
         width:320px ;
+    }
+}
+@media (max-width: 550px) {
+    .header h1{
+        font-size: 25px;
     }
 }
