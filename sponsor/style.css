@@ -81,6 +81,9 @@ section div{
 }
 
 @media (max-width:750px) {
+    nav{
+        justify-content: center;
+    }
     nav img{
         height: 70px;
         width: 70px;
@@ -98,11 +101,16 @@ section div{
     }
 }
 @media (max-width:550px){
+    nav img {
+        height: 60px;
+        width: 60px;
+    }
     h1{
         font-size: 30px;
     }
     .amount {
             font-size: 30px;
+            margin: 20px 0 40px;
         }
     .p-sect{
         font-size: 25px;
@@ -113,6 +121,6 @@ section div{
         margin-bottom: 30px;
     }
     section div{
-        margin-top: 0;
+        margin: 0;
     }
 }
