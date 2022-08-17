@@ -78,7 +78,7 @@ body {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    margin: 10% auto;
+    margin: auto;
 }
 .hand-btn {
     display: flex;
