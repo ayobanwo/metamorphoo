@@ -209,4 +209,7 @@ hr{
     .book-img img{
         width: 250px;
     }
+    .boot-img{
+        width:320px ;
+    }
 }
